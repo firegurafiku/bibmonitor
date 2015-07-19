@@ -14,15 +14,23 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         MainWindow.cpp \
-    SettingsDialog.cpp
+    SettingsDialog.cpp \
+    PendingFilesDialog.cpp \
+    Application.cpp
 
 HEADERS  += \
     MainWindow.h \
-    SettingsDialog.h
+    SettingsDialog.h \
+    PendingFilesDialog.h \
+    Application.h
 
 FORMS    += \
     MainWindow.ui \
-    SettingsDialog.ui
+    SettingsDialog.ui \
+    PendingFilesDialog.ui
 
 DISTFILES += \
     README.md
+
+RESOURCES += \
+    Resources.qrc
